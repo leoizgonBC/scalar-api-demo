@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Habilita la generación de documentación XML -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <!-- Suprime advertencias de documentación XML faltante -->
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.ApiDescription.Server" Version="10.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Scalar.Aspire" Version="0.8.24" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.12.15" />
+    <PackageReference Include="Scalar.AspNetCore.Swashbuckle" Version="2.12.15" />
+  </ItemGroup>
+
+</Project>
