@@ -1,4 +1,4 @@
-# ?? Scalar API Demo
+# Scalar API Demo
 
 Una API RESTful de demostración construida con **.NET 10** y documentada con **Scalar**, mostrando una aplicación completa de comercio electrónico con documentación interactiva moderna.
 
@@ -6,20 +6,20 @@ Una API RESTful de demostración construida con **.NET 10** y documentada con **S
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Scalar](https://img.shields.io/badge/Docs-Scalar-blue)
 
-## ?? Descripción
+## Descripcion
 
 Esta API de ejemplo demuestra cómo crear documentación de API profesional e interactiva usando [Scalar](https://scalar.com/) como alternativa moderna a Swagger UI. Incluye módulos completos para gestión de tareas, usuarios, productos, pedidos y notificaciones.
 
-## ? Características
+## Caracteristicas
 
-- ?? **CRUD completo** para múltiples entidades
-- ?? **Documentación interactiva** con Scalar (tema DeepSpace)
-- ?? **Filtros y paginación** en endpoints de listado
-- ? **Validación de datos** con Data Annotations
-- ??? **Endpoints organizados** por tags/categorías
-- ?? **OpenAPI 3.1** con documentación XML detallada
+- **CRUD completo** para múltiples entidades
+- **Documentación interactiva** con Scalar (tema DeepSpace)
+- **Filtros y paginación** en endpoints de listado
+- **Validación de datos** con Data Annotations
+- **Endpoints organizados** por tags/categorías
+- **OpenAPI 3.1** con documentación XML detallada
 
-## ??? Tecnologías
+## Tecnologias
 
 | Tecnología | Versión | Descripción |
 |------------|---------|-------------|
@@ -28,7 +28,7 @@ Esta API de ejemplo demuestra cómo crear documentación de API profesional e inte
 | Scalar.AspNetCore | 2.12.15 | Documentación de API |
 | OpenAPI | 3.1 | Especificación de API |
 
-## ?? Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 scalar-api-demo/
@@ -48,13 +48,13 @@ scalar-api-demo/
 ??? PruebaApi.csproj
 ```
 
-## ?? Inicio Rápido
+## Inicio Rapido
 
 ### Prerrequisitos
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 
-### Instalación
+### Instalacion
 
 1. Clona el repositorio:
    ```bash
@@ -76,7 +76,7 @@ scalar-api-demo/
    - **Documentación Scalar**: https://localhost:7219/scalar/
    - **OpenAPI JSON**: https://localhost:7219/openapi/PruebaApi.json
 
-## ?? Módulos de la API
+## Modulos de la API
 
 | Módulo | Ruta Base | Descripción |
 |--------|-----------|-------------|
@@ -86,7 +86,7 @@ scalar-api-demo/
 | **Orders** | `/api/Orders` | Gestión de pedidos y checkout |
 | **Notifications** | `/api/Notifications` | Sistema de notificaciones |
 
-## ?? Configuración de Scalar
+## Configuracion de Scalar
 
 Este proyecto usa Scalar con las siguientes configuraciones personalizadas:
 
@@ -105,7 +105,7 @@ app.MapScalarApiReference(options =>
 });
 ```
 
-## ?? Códigos de Respuesta HTTP
+## Codigos de Respuesta HTTP
 
 | Código | Descripción |
 |--------|-------------|
@@ -116,16 +116,16 @@ app.MapScalarApiReference(options =>
 | `404` | Not Found - Recurso no encontrado |
 | `409` | Conflict - Conflicto (ej: email duplicado) |
 
-## ?? Contribuir
+## Contribuir
 
 Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría realizar.
 
-## ?? Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
 <p align="center">
-  Hecho con ?? usando <a href="https://scalar.com/">Scalar</a> y <a href="https://dotnet.microsoft.com/">.NET 10</a>
+  Hecho con Scalar y .NET 10
 </p>
