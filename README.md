@@ -32,20 +32,20 @@ Esta API de ejemplo demuestra cómo crear documentación de API profesional e inte
 
 ```
 scalar-api-demo/
-??? Controllers/
-?   ??? TodoController.cs        # Gestión de tareas
-?   ??? UsersController.cs       # Gestión de usuarios
-?   ??? ProductsController.cs    # Catálogo de productos
-?   ??? OrdersController.cs      # Gestión de pedidos
-?   ??? NotificationsController.cs # Sistema de notificaciones
-??? Models/
-?   ??? TodoItem.cs
-?   ??? User.cs
-?   ??? Product.cs
-?   ??? Order.cs
-?   ??? Notification.cs
-??? Program.cs                   # Configuración de la aplicación
-??? PruebaApi.csproj
+|-- Controllers/
+|   |-- TodoController.cs          # Gestion de tareas
+|   |-- UsersController.cs         # Gestion de usuarios
+|   |-- ProductsController.cs      # Catalogo de productos
+|   |-- OrdersController.cs        # Gestion de pedidos
+|   +-- NotificationsController.cs # Sistema de notificaciones
+|-- Models/
+|   |-- TodoItem.cs
+|   |-- User.cs
+|   |-- Product.cs
+|   |-- Order.cs
+|   +-- Notification.cs
+|-- Program.cs                     # Configuracion de la aplicacion
++-- PruebaApi.csproj
 ```
 
 ## Inicio Rapido
